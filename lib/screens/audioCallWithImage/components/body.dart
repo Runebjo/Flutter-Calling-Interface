@@ -34,7 +34,7 @@ class Body extends StatelessWidget {
                 ),
                 VerticalSpacing(of: 10),
                 Text(
-                  "INCOMING 00:01",
+                  "INCOMING 00:02",
                   style: TextStyle(color: Colors.white60),
                 ),
                 Spacer(),

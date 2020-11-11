@@ -1,4 +1,6 @@
 import 'package:calling/components/dial_user_pic.dart';
+import 'package:calling/components/rounded_button.dart';
+import 'package:calling/constants.dart';
 import 'package:calling/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -63,6 +65,13 @@ class Body extends StatelessWidget {
                   text: "Voice Mail",
                 ),
               ],
+            ),
+            VerticalSpacing(),
+            RoundedButton(
+              iconSrc: "assets/icons/call_end.svg",
+              color: kRedColor,
+              iconColor: Colors.white,
+              press: () {},
             )
           ],
         ),

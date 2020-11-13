@@ -3,7 +3,6 @@ import 'package:calling/components/rounded_button.dart';
 import 'package:calling/constants.dart';
 import 'package:calling/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import 'dial_button.dart';
 
